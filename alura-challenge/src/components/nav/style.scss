@@ -1,0 +1,43 @@
+nav{
+    width: 100vw;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navWrap{
+    width: 80%;
+    height: 115px;
+    right: 0;
+    justify-content: space-between;
+}
+input{
+    border: none;
+    background-color: #F5F5F5;;
+}
+#searchBar{
+    border: 1px solid #F5F5F5;
+    border-radius: 20px;
+    background-color: #F5F5F5;
+    padding: 0px 16px;
+    margin-left: 20px;
+}
+#loginButton{
+    width: 182px;
+    height: 51px;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+#lupa{
+    color: #A2A2A2;
+}
+#lupa:hover{
+    color: blue;
+    font-stretch: wider;
+}
