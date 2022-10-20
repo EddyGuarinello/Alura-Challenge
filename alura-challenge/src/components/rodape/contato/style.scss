@@ -1,0 +1,31 @@
+$variavel :15px;
+
+.tituloContato{
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Raleway;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+button{
+    width: 30%;
+    border: none;
+    background-color: #2A7AE4;
+    height: 51px;
+    color: white;
+}
+.inputFooter{
+    border-radius: 5px;
+}
+.inputFooter:nth-of-type(1){
+    height: 56px;
+    margin: 5px 0 10px;
+}
+.inputFooter:nth-of-type(2){
+    height: 82px;
+    margin: 5px 0 10px;
+}

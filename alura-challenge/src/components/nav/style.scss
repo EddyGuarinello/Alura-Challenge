@@ -13,17 +13,17 @@
     right: 0;
     justify-content: space-between;
 }
-input{
+#inputNav{
     border: none;
     background-color: #F5F5F5;
     color: #A2A2A2;
+    margin: 0;
 }
 #searchBar{
-    border: 1px solid #F5F5F5;
     border-radius: 20px;
     background-color: #F5F5F5;
     padding: 0px 16px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 #loginButton{
     width: 182px;

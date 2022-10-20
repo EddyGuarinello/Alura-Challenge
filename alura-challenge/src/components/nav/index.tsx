@@ -9,7 +9,7 @@ function Nav() {
         <span className='flex'>
           <span><img src="imgs/Logo.png" alt="" /></span>
           <span id='searchBar' className='flex'>
-            <input style={{width: "393px" ,height: '40px'}} type="text" placeholder='O que deseja encontrar?' />
+            <input id='inputNav' style={{width: "393px" ,height: '40px'}} type="text" placeholder='O que deseja encontrar?' />
             <span><GoSearch id='lupa'/></span>
           </span>
           </span>

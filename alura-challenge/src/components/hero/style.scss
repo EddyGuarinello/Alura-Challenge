@@ -1,12 +1,13 @@
-section{
+.heroSection{
     font-family: 'Raleway';
     height: 352px;
+    justify-content: center;
     color: white;
     display: flex;
 }
 #heroWrapper{
     align-self: flex-end;
-    margin-left: 120px;
+    width: 85%;
 }
 h1{
     font-weight: 700;

@@ -1,6 +1,8 @@
 import React from 'react';
 import Nav from './components/nav';
 import Hero from './components/hero';
+import Rodape from './components/rodape';
+import Assinatura from './components/rodape/assinatura';
 import Catalogo from './components/catalogo';
 
 function App() {
@@ -10,9 +12,13 @@ function App() {
         <Nav></Nav>
         <Hero></Hero>
       </header>
-      <span>
+      <main>
       <Catalogo></Catalogo>
-      </span>
+      </main>
+      <footer style={{marginTop:"70px"}}>
+        <Rodape></Rodape>
+      </footer>
+      <Assinatura></Assinatura>
     </div>
   );
 }
