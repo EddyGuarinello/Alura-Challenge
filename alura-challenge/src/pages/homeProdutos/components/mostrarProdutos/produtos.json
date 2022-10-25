@@ -1,0 +1,128 @@
+[
+{
+        "categoria":"starWars",
+        "nome": "Caneca StormTrooper",
+        "preço": "R$ 60,00",
+        "link":"",
+        "img":"imgs/starWars/canecaStorm.png"
+},
+{
+        "categoria":"starWars",
+        "nome": "Capacetes Lego",
+        "preço": "R$ 60,00",
+        "link":"", 
+        "img":"imgs/starWars/capaceteLego.png"
+},
+{
+        "categoria":"starWars",
+        "nome": "Boneco Yoda",
+        "preço": "R$ 60,00",
+        "link":"",
+        "img":"imgs/starWars/bonecoYoda.png"
+},
+{
+        "categoria":"starWars",
+        "nome": "Boneco StormTrooper",
+        "preço": "R$ 60,00",
+        "link":"",
+        "img":"imgs/starWars/bonecoStorm.png"
+},
+{
+        "categoria":"starWars",
+        "nome": "Boneco Bebê Yoda",
+        "preço": "R$ 60,00",
+        "link":"",
+        "img":"imgs/starWars/bonecoBebeYoda.png"
+},
+{
+        "categoria":"starWars",
+        "nome": "ActionFigures",
+        "preço": "R$ 60,00",
+        "link":"",
+        "img":"imgs/starWars/actionFigures.png"
+},
+{
+        "categoria":"consoles",
+
+        "nome": "Controle Xbox",
+        "preço": "R$ 60,00",
+        "link":"",
+        "img":"imgs/consoles/controleXbox.png"
+},
+{
+        "categoria":"consoles",
+        "nome": "Playstation",
+        "preço": "R$ 60,00",
+        "link":"",
+        "img":"imgs/consoles/playstation5.png"
+},
+{
+        "categoria":"consoles",
+        "nome": "NES",
+        "preço": "R$ 60,00",
+        "link":"",
+        "img":"imgs/consoles/NES.png"
+},
+{
+        "categoria":"consoles",
+        "nome": "Controle NintendSwitch",
+        "preço": "R$ 60,00",
+        "link":"",
+        "img":"imgs/consoles/controleNintendoSwitch.png"
+},
+{
+        "categoria":"consoles",
+        "nome": "Xbox Series X",
+      "preço": "R$ 60,00",
+        "link":"",
+        "img":"imgs/consoles/xboxSeriesX.png"
+},
+{
+        "categoria":"consoles",
+        "nome": "Game Boy Color",       "preço": "R$ 60,00",
+        "link":"",
+        "img":"imgs/consoles/gameBoyColor.png"
+},
+{   
+        "categoria":"diversos",
+        "nome": "Camisa Atari",
+        "preço": "R$ 60,00",
+        "link":"",
+        "img":"imgs/diversos/camisaAtari.png"
+},
+{   
+        "categoria":"diversos",
+        "nome": "Camisa SNES",
+        "preço": "R$ 60,00",
+        "link":"",
+        "img":"imgs/diversos/camisaSNES.png"
+},
+{   
+        "categoria":"diversos",
+        "nome": "Action Figure SONIC",
+        "preço": "R$ 60,00",
+        "link":"",
+        "img":"imgs/diversos/actionFigureSonic.png"
+},
+{   
+        "categoria":"diversos",
+        "nome": "Relógio Rosa",
+        "preço": "R$ 60,00",
+        "link":"",
+        "img":"imgs/diversos/relogioRosa.png"
+},
+{   
+        "categoria":"diversos",
+        "nome": "Oculus Rift",
+        "preço": "R$ 60,00",
+        "link":"",
+        "img":"imgs/diversos/oculusRift.png"
+},
+{   
+        "categoria":"diversos",
+        "nome": "Pelúcia Pikachu",
+        "preço": "R$ 60,00",
+        "link":"",
+        "img":"imgs/diversos/peluciaPikachu.png"
+}
+]

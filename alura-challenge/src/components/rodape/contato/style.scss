@@ -5,21 +5,24 @@ $variavel :15px;
     font-size: 16px;
     font-family: Raleway;
 }
-form{
+.formFooter{
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
-button{
+.inputButton{
     width: 30%;
     border: none;
     background-color: #2A7AE4;
     height: 51px;
     color: white;
+    width: 140px;
 }
 .inputFooter{
     border-radius: 5px;
+    border-style: none;
+    box-shadow: 0px 1px #c8c8c8;
 }
 .inputFooter:nth-of-type(1){
     height: 56px;

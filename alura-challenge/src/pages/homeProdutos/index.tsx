@@ -1,0 +1,13 @@
+import Nav from "../../components/nav";
+import Rodape from "../../components/rodape";
+import MostrarProdutos from "./components/mostrarProdutos";
+
+export default function HomeProdutos(){
+    return(
+        <>
+        <Nav></Nav>
+        <MostrarProdutos></MostrarProdutos>
+        <Rodape></Rodape>
+        </>
+    )
+}

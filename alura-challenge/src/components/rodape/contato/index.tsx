@@ -5,10 +5,10 @@ export default function Contato(){
     return(
         <>
        <h2 className="tituloContato">Fale conosco</h2>
-       <form action="">
+       <form className="formFooter" action="">
         <input className="inputFooter" type="text" placeholder="Nome" />
         <input className="inputFooter" type="text" placeholder="Escreva sua mensagem"/>
-        <button>Enviar Mensagem</button>
+        <button className="inputButton">Enviar Mensagem</button>
        </form>
        </>
     )

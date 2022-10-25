@@ -1,0 +1,63 @@
+#sectionProduto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+.productTitle{
+    width: 85%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.verTudoProduto{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+    display: flex;
+    align-items: center;
+}
+.arrow{
+    margin-left: 8px;
+    font-size: 20px;
+}
+h2{
+    color: black;
+    display: contents;
+    font-weight: 700;
+    font-size: 32px;
+}
+#produtoWrap{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.produtosWrap{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+}
+.produtoInfos{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.produtoNome{
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+.produtoPreço{
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    font-size: 16px;
+}
+a{
+    color: #2A7AE4;
+    text-decoration: none;
+    font-weight: 700;
+}

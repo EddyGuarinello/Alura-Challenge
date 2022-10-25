@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.scss';
+import LoginButton from '../Buttons/LoginButton';
 
 import { GoSearch } from 'react-icons/go';
 function Nav() {
@@ -13,7 +14,7 @@ function Nav() {
             <span><GoSearch id='lupa'/></span>
           </span>
           </span>
-          <span className='flex' id='loginButton'>Login</span>
+          <LoginButton></LoginButton>
       </div>
     </nav>
   )
