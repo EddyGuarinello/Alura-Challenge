@@ -2,15 +2,21 @@ import React from 'react';
 import './style.scss';
 import Lista from '../lista';
 import {AiOutlineArrowRight} from 'react-icons/ai'
+import listaProdutos from "../../../../../data/produtos.json"
 
 interface nomeDoProduto{
     nomeProduto : string
 }
 
 export default function ListarProduto(props: nomeDoProduto){
-    const teste = props.nomeProduto;
+    const nomeDoProduto = props.nomeProduto;
+    
+    let produto = listaProdutos.filter(function(elemento:any){
+        return (elemento.categoria == nomeDoProduto)
+    })
 
-    let produto = Lista(teste);
+  
+    // let produto = Lista(nomeDoProduto);  
     
     return(
         <section id='sectionProduto'>
@@ -19,7 +25,7 @@ export default function ListarProduto(props: nomeDoProduto){
         </span>
         <div id='produtoWrap'>
         <div className='produtosWrap'>         
-            {produto?.map((item, index) =>(
+            {produto.map((item, index) =>(
                 <div>
                 <img src={item.img} alt="" />
                 <span className='produtoInfos'>

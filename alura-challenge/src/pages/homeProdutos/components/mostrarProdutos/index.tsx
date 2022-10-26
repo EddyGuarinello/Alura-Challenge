@@ -1,9 +1,5 @@
 import teste from "./produtos.json";
 
-function testando(valor?:any){
-
-}
-
 export default function MostrarProdutos(){
     return(
         <section>
