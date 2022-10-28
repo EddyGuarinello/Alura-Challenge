@@ -9,7 +9,7 @@ function Inicio() {
   return (
     <div className="App">
       <header>
-        <Nav></Nav>
+        <Nav logado={true}></Nav>
         <Hero></Hero>
       </header>
       <main>

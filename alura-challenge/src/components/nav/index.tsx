@@ -3,7 +3,15 @@ import './style.scss';
 import LoginButton from '../Buttons/LoginButton';
 
 import { GoSearch } from 'react-icons/go';
-function Nav() {
+
+interface loginEnabled{
+  logado: boolean
+}
+
+function Nav(props: loginEnabled) {
+  function islogged(){
+    return(props.logado? <LoginButton></LoginButton>: "")
+  }; 
   return (
     <nav className='flex'>   
       <div id='navWrap' className='flex'>
@@ -14,7 +22,7 @@ function Nav() {
             <span><GoSearch id='lupa'/></span>
           </span>
           </span>
-          <LoginButton></LoginButton>
+          {islogged()}
       </div>
     </nav>
   )

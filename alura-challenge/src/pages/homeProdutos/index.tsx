@@ -5,7 +5,7 @@ import MostrarProdutos from "./components/mostrarProdutos";
 export default function HomeProdutos(){
     return(
         <>
-        <Nav></Nav>
+        <Nav logado={false} ></Nav>
         <MostrarProdutos></MostrarProdutos>
         <Rodape></Rodape>
         </>

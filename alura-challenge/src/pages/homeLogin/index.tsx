@@ -6,7 +6,7 @@ import IniciarSessao from './components/iniciarSessao';
 export default function HomeLogin(){
     return(
         <>
-            <Nav></Nav>
+            <Nav logado={true}></Nav>
             <IniciarSessao></IniciarSessao>
             <Rodape></Rodape>
         </>
