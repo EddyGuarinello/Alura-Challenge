@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from '../../components/nav';
-import Hero from './components/hero';
+import Hero from '../inicio/components/Hero';
 import Rodape from '../../components/rodape';
 import Assinatura from '../../components/rodape/assinatura';
 import Catalogo from './components/catalogo';

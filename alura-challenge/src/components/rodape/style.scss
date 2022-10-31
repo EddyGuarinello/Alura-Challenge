@@ -11,9 +11,10 @@ footer{
     justify-content: center;
     align-items: center;
     background-color: #EAF2FD;
+    color: #464646;
 }
 .footerWrap{
-    width: 85%;
+    width: 80%;
     height: $footerHeight*0.65;
     display: flex;
     justify-content: space-between;
@@ -38,4 +39,7 @@ footer{
 }
 .footerContato{
     width: 50%;
+}
+.logoContato:hover{
+cursor: pointer;
 }

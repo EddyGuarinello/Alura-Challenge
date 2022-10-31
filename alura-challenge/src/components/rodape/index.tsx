@@ -6,15 +6,15 @@ export default function Rodape(){
         <footer>
     <div className='footerWrap'>
         <div className='footerLogo'>
-            <img src="imgs/Logo.png" alt="" />
+            <img className='logoContato' src="imgs/Logo.png" alt="" />
         </div>
         <div className='footerLinks'>
-            <a href="">Quem somos nós</a>
-            <a href="">Política de privacidade</a>
-            <a href="">Programa fidelidade</a>
-            <a href="">Nossas Lojas</a>
-            <a href="">Quero ser franqueado</a>
-            <a href="">Anuncie aqui</a>
+            <a href="www.google.com.br">Quem somos nós</a>
+            <a href="www.google.com.br">Política de privacidade</a>
+            <a href="www.google.com.br">Programa fidelidade</a>
+            <a href="www.google.com.br">Nossas Lojas</a>
+            <a href="www.google.com.br">Quero ser franqueado</a>
+            <a href="www.google.com.br">Anuncie aqui</a>
         </div>
         <div className='footerContato'>
             <Contato></Contato>

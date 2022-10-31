@@ -1,5 +1,8 @@
+import { useNavigate} from 'react-router-dom';
+
 import './style.scss'
 export default function IniciarSessao() {
+    const navigate = useNavigate();
     return (
         <section id="sectionHomeLogin">
             <div id="loginFormWrap">
@@ -7,7 +10,7 @@ export default function IniciarSessao() {
                 <form action="">
                     <input className='inputHomeLogin' placeholder="   Escreva seu E-mail" type="email" />
                     <input className='inputHomeLogin' placeholder="   Escreva sua Senha" type="password" />
-                    <input className='inputHomeLogin' id='buttonHomeLogin' value={'Entrar'} type="button" />
+                    <input onClick={()=>navigate("/produtoscadastrados")} className='inputHomeLogin' id='buttonHomeLogin' value={'Entrar'} type="button" />
                 </form>
             </div>
         </section>
