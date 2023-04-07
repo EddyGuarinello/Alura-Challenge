@@ -1,6 +1,5 @@
 import React from 'react';
 import './style.scss';
-import Lista from '../lista';
 import { v4 as uuidv4 } from 'uuid';
 import {AiOutlineArrowRight} from 'react-icons/ai'
 
@@ -16,13 +15,14 @@ interface Produto {
     CATEGORIA: string;
     PRECO: string;
     IMG: string;
+    ID: number;
   }
 
 export default function ListarProduto(props: nomeDoProduto){
     const [produtos, setProdutos] = useState<Produto[]>([]);
     useEffect(() => {
         async function obterDadosDaApi() {
-          const response = await fetch('https://api-challenge-kohl.vercel.app/produtos');
+          const response = await fetch('https://api-challenge-eight.vercel.app/produtos');
           const data = await response.json();
           setProdutos(data);
         }
@@ -35,7 +35,6 @@ export default function ListarProduto(props: nomeDoProduto){
     let produto = produtos.filter(function(elemento:any){
         return (elemento.CATEGORIA == nomeDoProduto)
     }) 
-    console.log(produto)
 
     return(
         <section id='sectionProduto'>

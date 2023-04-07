@@ -6,7 +6,7 @@ function Catalogo(){
     return(
         <>
         <ListarProduto nomeProduto='Star Wars'></ListarProduto>
-        <ListarProduto key={"232323"} nomeProduto='Consoles'></ListarProduto>
+        <ListarProduto nomeProduto='Consoles'></ListarProduto>
         <ListarProduto nomeProduto='Diversos'></ListarProduto>
         </>
     )

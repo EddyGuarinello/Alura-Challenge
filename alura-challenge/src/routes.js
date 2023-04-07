@@ -12,6 +12,7 @@ export default function AppRouter(){
                 <Route path='/login' element={<HomeLogin />}></Route>
                 <Route path='/addproduto' element={<AddNovoProduto />}></Route>
                 <Route path='/produtoscadastrados' element={<HomeProdutos />}></Route>    
+                <Route path='/updateproduto' element={<UpdateProduto />}></Route>
             </Routes>
         </Router>
     );
