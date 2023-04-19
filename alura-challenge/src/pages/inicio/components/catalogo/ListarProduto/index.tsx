@@ -34,7 +34,7 @@ export default function ListarProduto(props: nomeDoProduto){
     
     let produto = produtos.filter(function(elemento:any){
         return (elemento.CATEGORIA == nomeDoProduto)
-    }) 
+    }).slice(0, 6);
 
     return(
         <section id='sectionProduto'>
@@ -45,7 +45,7 @@ export default function ListarProduto(props: nomeDoProduto){
         <div className='produtosWrap'>         
             {produto.map((item, index) =>(
                 <div key={uuidv4()}>
-                <img src={item.IMG} alt="" />
+                <img className='imgCatalogo' src={item.IMG} alt="" />
                 <span className='produtoInfos'>
                 <h3 className='produtoNome'>{item.NOME}</h3>
                 <h3 className='produtoPreço'>{item.PRECO}</h3>
