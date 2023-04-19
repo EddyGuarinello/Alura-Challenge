@@ -1,5 +1,6 @@
 import { IProduto } from "../../../../types/produto";
 import "./style.scss"
+import { v4 as uuidv4 } from 'uuid';
 export default function InfoAddProduto(){
     function enviarDados() {
         interface Produto {
@@ -14,6 +15,7 @@ export default function InfoAddProduto(){
             nome: (document.querySelector('input[name="nome"]') as HTMLInputElement).value,
             preco: (document.querySelector('input[name="preco"]') as HTMLInputElement).value,
             link: "",
+            id: uuidv4(),
             img: (document.querySelector('input[name="img"]') as HTMLInputElement).value
           };
         fetch('https://api-challenge-eight.vercel.app/produtos', {
