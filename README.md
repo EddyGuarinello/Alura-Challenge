@@ -1,4 +1,13 @@
-Estou melhorando esse projeto aos poucos quando tenho tempo livre
+Este projeto é baseado em uma etapa do alura challenge.
+O desafio consistia em montar o front end da aplicação seguindo alguns templates disponibilizados por eles utilizando html css e js.
+
+Eu achei que seria uma ótima oportunidade para fazer um projeto "full stack" com React e fazer o backend e banco de dados da aplicação, porém, neste repositório você verá apenas o front-end consumindo apis de autoria própria e utilizando um banco também de autoria própria.
+
+Futuramente abrirei para público o repositório da minha API feita em nodejs.
+
+O projeto não está completo e está em constante evolução conforme eu encontro tempos livres, então pode ser que algum componente ainda não funcione.
+
+
 
 
 # Getting Started with Create React App
