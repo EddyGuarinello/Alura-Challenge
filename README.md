@@ -5,8 +5,7 @@ Eu achei que seria uma ótima oportunidade para fazer um projeto "full stack" co
 
 Futuramente abrirei para público o repositório da minha API feita em nodejs.
 
-O projeto não está completo e está em constante evolução conforme eu encontro tempos livres, então pode ser que algum componente ainda não funcione.
-
+O projeto não está completo e está em constante evolução conforme eu encontro tempos livres, então pode ser que algum componente ainda não funcione e que tenha falhas na responsividade.
 
 
 
